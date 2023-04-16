@@ -1,4 +1,10 @@
-Iterator Pattern Design examples in C++
+Iterator Pattern Design examples in C++.
+
+What is main problem here?
+
+    - I.e we have a groscery store, and the owner have a list of products that needs to be listed.
+    - So we have 2 ways to do that: 1st one is using Iterator, 2nd one is the ordinary way that everyone can do xD.
+
 How it works:
 - Iterator: 
     + In the main() function, we create a ProductList object and add some products to the list using the createProductList() method. Then we iterate through the list of products using a ProductIterator object returned by the ProductList object's getIterator() method.

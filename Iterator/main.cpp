@@ -8,8 +8,8 @@ int main() {
     productList.addProduct(new Product("P3", 30, "D3"));
 
     ProductList::Iterator* iterator = productList.createIterator();
-    for (iterator->first(); !iterator->isDone(); iterator->next()) {
-        Product* product = iterator->currentItem();
+    for (iterator -> first(); !iterator -> isDone(); iterator -> next()) {
+        Product* product = iterator -> currentItem();
         std::cout << "Name: " << product -> getName() << std::endl;
         std::cout << "Price: " << product -> getPrice() << std::endl;
         std::cout << "Description: " << product -> getDescription() << std::endl;
